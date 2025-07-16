@@ -277,7 +277,7 @@ body.dark .navbar a:hover {
         padding: 12px 20px;
         box-sizing: border-box;
         z-index: 1000;
-        height: 5vh;
+        height: 10vh;
    }
 
     main{
