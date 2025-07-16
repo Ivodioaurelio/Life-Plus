@@ -268,7 +268,16 @@ body.dark .navbar a:hover {
        
       
     }
-
+   header{
+        background-color: #194f86; 
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        z-index: 1000;
+        height: 10vh;
 
 
     main{
