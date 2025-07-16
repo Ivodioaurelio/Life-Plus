@@ -166,7 +166,7 @@ body.dark .navbar a:hover {
     border-radius: 10px;              /* cantos arredondados */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);  /* sombra */
     margin: 20px 0; 
-    width: 50%;
+    width: 80%;
     margin: auto;                  /* espaço externo */
   }
   
