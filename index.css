@@ -235,6 +235,10 @@ body.dark .navbar a:hover {
         position: fixed;
         z-index: 10000;
         transition: 0.3s;
+        color: white;
+    }
+  .menu-toggle.menu-aberto{
+        color: black; 
     }
     .navbar ul{
         flex-direction: column;
