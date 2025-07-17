@@ -359,7 +359,7 @@ body.dark .navbar a:hover {
   #menu {
     background-color: #fff;
     color: #000;
-    padding: 20px 15px;
+    padding: 40px 15px;
     font-size: 18px;
     display: flex;
     flex-direction: column;
