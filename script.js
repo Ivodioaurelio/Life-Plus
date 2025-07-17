@@ -3,9 +3,11 @@ const menu = document.getElementById('menu');
 const overlay = document.getElementById('overlay');
 
 toggle.addEventListener('click', () => {
-  menu.classList.toggle('show');
+    const menuAberto = menu.classList.toggle('show');
   overlay.classList.toggle('active');
-  toggle.innerHTML = menu.classList.contains('show') ? '&#10006;' : '&#9776;';
+  //Alternar icon e cor
+  toggle.innerHTML = menuAberto ? '&#10006;' : '&#9776;';
+  toggle.classList.toggle('menu-aberto', menuAberto);
   
 });
 overlay.addEventListener('click', () => {
@@ -18,6 +20,8 @@ overlay.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
   menu.classList.remove('show');
   overlay.classList.remove('active');
+  toggle.innerHTML= '&#9776;';
+  toggle.classList.remove('menu-aberto');
 });
 
 
